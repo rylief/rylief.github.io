@@ -1,3 +1,47 @@
+@font-face {
+    font-family: "gfs-neohellenic";
+    src: local("gfs-neohellenic"),
+	url("GFSNeohellenic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "gfs-neohellenicbold";
+    src: local("gfs-neohellenicbold"),
+	url("GFSNeohellenicBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "gfs-neohellenicbolditalic";
+    src: local("gfs-neohellenicbolditalic"),
+	url("GFSNeohellenicBoldItalic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "gfs-neohellenicitalic";
+    src: local("gfs-neohellenicitalic"),
+	url("GFSNeohellenicItalic.ttf") format("truetype");
+}
+
 .navButton {
 	padding-right: 8px;
 	}
+
+h1 {
+	font-family: 'gfs-neohellenicbold';
+}
+
+h2 {
+	font-family: 'gfs-neohellenicbold';
+}
+
+p {
+	font-family: 'gfs-neohellenic';
+}
+
+li {
+	font-family: 'gfs-neohellenic';
+}
+
+nav {
+	font-family: 'gfs-neohellenic';
+}
